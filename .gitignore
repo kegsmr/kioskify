@@ -1,0 +1,6 @@
+dist
+dist32
+dist64
+temp
+
+*.bat
