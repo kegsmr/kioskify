@@ -3,4 +3,6 @@ dist32
 dist64
 temp
 
+version.rc
+
 *.bat
