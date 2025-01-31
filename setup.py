@@ -11,9 +11,9 @@ from pyinstaller_versionfile import create_versionfile
 TITLE = "Kioskify"
 NAME = "kioskify.exe"
 VERSION = "0.1.0"
-PUBLISHER = "Kegan Messmer"
+PUBLISHER = "GranitSoft"
 DESCRIPTION = "Turn any program into a kiosk that runs as the Windows shell."
-LICENSE = "MIT"
+LICENSE = "MIT-0"
 DIST = "dist" + str(8 * struct.calcsize("P"))
 
 
