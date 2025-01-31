@@ -6,7 +6,7 @@ A Python script frozen with PyInstaller that enables any Windows executable to b
 ```
 pip install -r requirements.txt
 ```
-* Run `setup.py` to freeze the Python script into a Windows executable with PyInstaller.
+* Run `setup.py` to freeze the Python script into a Windows executable with PyInstaller. The executable can be found in either `dist32` or `dist64`; the former is for 32-bit builds and the latter is for 64-bit builds.
 * Copy the Kioskify executable to the target machine; `C:\kioskify.exe` works.
 * Log into the user you would like to function as a kiosk.
 * Open `regedit.exe` and navigate to `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon`.
