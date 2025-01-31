@@ -4,7 +4,7 @@ A Python script frozen with PyInstaller that enables any Windows executable to b
 ## Usage
 * Install the necessary requirements on PIP.
 ```
-pip install -r requirements.text
+pip install -r requirements.txt
 ```
 * Run `setup.py` to freeze the Python script into a Windows executable with PyInstaller.
 * Copy the Kioskify executable to the target machine; `C:\kioskify.exe` works.
